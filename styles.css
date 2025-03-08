@@ -1,0 +1,113 @@
+
+.noto-sans {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+body {
+    font-family: "Noto Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+
+}
+
+header {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: left;
+    border-bottom: solid 1px #d3d3d3;
+}
+
+header h1 {
+    margin: 0;
+}
+
+
+
+section h2 {
+    color: #333;
+    padding-left: 100px;
+}
+
+footer {
+    background-color: #b3b3b3;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navegacion { 
+    background-color: #ffffff;
+    padding: 5px;
+    text-align: right;
+    padding-right: 100px;
+    font-weight: 700;
+}
+   
+
+.navegacion a { 
+    text-decoration: none;
+    color: rgb(163, 163, 163);
+    margin-left: 20px;
+}
+
+.hero {
+    background-image: url(./Resources/hero.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+}
+
+.hero h1 {
+    display: inline;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero h2 {
+   color: #ffffff;
+   margin-left: 100px;
+   font-weight: 200;
+   
+}
+
+.para-quienes {
+    text-align: center;
+    
+}
+
+.para-quienes h3 {
+    color:  rgb(150, 148, 27);
+}
+
+h5 {
+    font-weight: 300;
+    color: #5a5a5a;
+}
+
+span {
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.escuelas-codigo {
+    display: block;
+    margin-top: -57px;
+    padding-left: 280px;
+    line-height: 1;
+}
